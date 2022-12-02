@@ -13,7 +13,9 @@ public class BooksServiceApplication {
 		SpringApplication.run(BooksServiceApplication.class, args);
 	}
 	@Bean
-	   public RestTemplate getRestTemplate() {
+	   
+	
+	public RestTemplate getRestTemplate() {
 	      return new RestTemplate();
 	   }
 }
