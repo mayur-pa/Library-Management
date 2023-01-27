@@ -11,9 +11,12 @@ public class BooksServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BooksServiceApplication.class, args);
+		
+		System.out.println("Test");
 	}
 	@Bean
 	   public RestTemplate getRestTemplate() {
 	      return new RestTemplate();
+	      
 	   }
 }
